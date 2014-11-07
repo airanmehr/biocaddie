@@ -1,0 +1,77 @@
+PMID- 24050827
+OWN - NLM
+STAT- MEDLINE
+DA  - 20131008
+DCOM- 20140703
+IS  - 1879-2472 (Electronic)
+IS  - 0049-3848 (Linking)
+VI  - 132
+IP  - 4
+DP  - 2013 Oct
+TI  - Recombinant thrombomodulin improved Stevens-Johnson syndrome with high serum
+      high-mobility group-B1 DNA-binding protein induced by lenalidomide administered
+      to treat multiple myeloma.
+PG  - 493-4
+LID - 10.1016/j.thromres.2013.08.020 [doi]
+LID - S0049-3848(13)00375-7 [pii]
+FAU - Inoue, Yasuyuki
+AU  - Inoue Y
+AD  - Division of Hematology and Oncology, Department of Internal Medicine, St.
+      Marianna University School of Medicine, Kawasaki, Japan. Electronic address:
+      ino-yasu@marianna-u.ac.jp.
+FAU - Saito, Tasuku
+AU  - Saito T
+FAU - Tsuruoka, Yuka
+AU  - Tsuruoka Y
+FAU - Sato, Kazuyuki
+AU  - Sato K
+FAU - Nishio, Yuji
+AU  - Nishio Y
+FAU - Suzuki, Yoshinori
+AU  - Suzuki Y
+FAU - Kato, Masayuki
+AU  - Kato M
+FAU - Isobe, Yasushi
+AU  - Isobe Y
+FAU - Sakai, Hirotaka
+AU  - Sakai H
+FAU - Takahashi, Masatomo
+AU  - Takahashi M
+FAU - Miura, Ikuo
+AU  - Miura I
+LA  - eng
+PT  - Case Reports
+PT  - Letter
+DEP - 20130901
+PL  - United States
+TA  - Thromb Res
+JT  - Thrombosis research
+JID - 0326377
+RN  - 0 (HMGB1 Protein)
+RN  - 0 (HMGB1 protein, human)
+RN  - 0 (Recombinant Proteins)
+RN  - 0 (Thrombomodulin)
+RN  - 191732-72-6 (lenalidomide)
+RN  - 4Z8R6ORS6L (Thalidomide)
+SB  - IM
+MH  - HMGB1 Protein/*blood
+MH  - Humans
+MH  - Male
+MH  - Middle Aged
+MH  - Multiple Myeloma/*drug therapy
+MH  - Recombinant Proteins/therapeutic use
+MH  - Stevens-Johnson Syndrome/*blood/*drug therapy/etiology
+MH  - Thalidomide/adverse effects/*analogs & derivatives/therapeutic use
+MH  - Thrombomodulin/*therapeutic use
+EDAT- 2013/09/21 06:00
+MHDA- 2014/07/06 06:00
+CRDT- 2013/09/21 06:00
+PHST- 2013/05/21 [received]
+PHST- 2013/07/19 [revised]
+PHST- 2013/08/27 [accepted]
+PHST- 2013/09/01 [aheadofprint]
+AID - S0049-3848(13)00375-7 [pii]
+AID - 10.1016/j.thromres.2013.08.020 [doi]
+PST - ppublish
+SO  - Thromb Res. 2013 Oct;132(4):493-4. doi: 10.1016/j.thromres.2013.08.020. Epub 2013
+      Sep 1.
