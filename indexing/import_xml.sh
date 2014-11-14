@@ -5,5 +5,6 @@ do
 	A="python mesh_db.py -s ../../../PubMed/MEDLINE/Medline_batch"
 	C=".xml -d mesh.db -t article_mesh"
 	run=$A$i$C
+	run
     echo $run
 done

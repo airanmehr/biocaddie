@@ -17,13 +17,13 @@ class dbConnectorMesh():
       VALUES (?, ?);', (pmid, str(header)))
     self.conn.commit();
 
-  # def upsert(self, dictionary, table):
-  #   for header,entries in dictionary.iteritems():
-  #     self.cur.execute('INSERT INTO '+table+'(header, entry_terms) VALUES (?,?);',(str(header),str(entries)))
+  def upsert(self, dictionary, table):
+    for header,entries in dictionary.iteritems():
+      self.cur.execute('INSERT INTO '+table+'(header, entry_terms) VALUES (?,?);',(str(header),str(entries)))
   #     # self.cur.execute('INSERT OR REPLACE INTO '+table+'(header, entry_terms) \
   #     # VALUES ('+str(header)+', COALESCE((SELECT entry_terms FROM '+table+' WHERE header = '+str(header)+'), \
   #     # '+str(entries)+'));')
-  #   self.conn.commit();
+    self.conn.commit();
 
 # CREATE TABLE article_mesh
 # (
