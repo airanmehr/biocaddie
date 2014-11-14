@@ -11,7 +11,28 @@ class dbConnectorMesh():
   def __exit__(self, type, value, traceback):
     self.conn.close();
 
-  def saveInformation(self, values, table):      
-    self.cur.execute('INSERT INTO '+table+'(pmid, mesh_tags) \
-      VALUES (?, ?)', (values['pmid'], str(values['mesh_tags'])))
+  def saveInformation(self, dictionary, table):
+    for pmid,header in dictionary.iteritems():
+      self.cur.execute('INSERT INTO '+table+'(pmid, header) \
+      VALUES (?, ?);', (pmid, str(header)))
     self.conn.commit();
+
+  # def upsert(self, dictionary, table):
+  #   for header,entries in dictionary.iteritems():
+  #     self.cur.execute('INSERT INTO '+table+'(header, entry_terms) VALUES (?,?);',(str(header),str(entries)))
+  #     # self.cur.execute('INSERT OR REPLACE INTO '+table+'(header, entry_terms) \
+  #     # VALUES ('+str(header)+', COALESCE((SELECT entry_terms FROM '+table+' WHERE header = '+str(header)+'), \
+  #     # '+str(entries)+'));')
+  #   self.conn.commit();
+
+# CREATE TABLE article_mesh
+# (
+# pmid INTEGER PRIMARY KEY,
+# header TEXT
+# );
+
+# CREATE TABLE header_entry
+# (
+# header TEXT PRIMARY KEY,
+# entry_terms TEXT
+# );
