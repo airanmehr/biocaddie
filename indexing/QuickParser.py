@@ -93,20 +93,20 @@ def getAuthor(article):
     alist=[]
     try:
         for item in article['AuthorList']:
-            author=(None,None,None)
+            author=[]
             try:
-                author[0]=item['ForeName']
+                author.append(item['ForeName'])
             except:
-                pass
+                author.append(None)
             try:
-                author[1]=item['LastName']
+                author.append(item['LastName'])
             except:
-                pass
+                author.append(None)
             try:
-                author[2]=item['Initials']
+                author.append(item['Initials'])
             except:
-                pass
-            alist.append(author)
+                author.append(None)
+            alist.append(tuple(author))
         return alist
     except:
         return None
