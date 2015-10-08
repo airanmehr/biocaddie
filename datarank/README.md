@@ -1,5 +1,6 @@
 DataRank Search Engine
 =========
+This is a demonstration of DataRank search engine available at [http://biocaddie.ucsd-dbmi.org](http://biocaddie.ucsd-dbmi.org).
 In this project we're creating a search engine for for biomedical datasets. The idea is to create a recommender system behind the search engine to make searches and recommendations more efficient. Roughly speaking, this project involves several nontrivial tasks:
  a (offline) recommender system has several component:
 
@@ -24,10 +25,10 @@ sudo pip install django-ipware
 
 **3- Run:** 
 
-`python manage.py runserver 0.0.0.0:8888` or if you want to run on http port:
+`python manage.py runserver 0.0.0.0:8888` or `sudo ./run_server.sh` which runs:
 
 1. `sudo ln -s /home/arya/workspace/biocaddie/datarank/web_nginx.conf   /etc/nginx/sites-enabled/`
 
 2. `sudo /etc/init.d/nginx restart`
 
-3. `sudo uwsgi --socket /tmp/test.sock --wsgi-file web/wsgi.py --chmod-socket=666 `
+3. `sudo uwsgi --socket /tmp/test.sock --wsgi-file web/wsgi.py --chmod-socket=666 ` &
